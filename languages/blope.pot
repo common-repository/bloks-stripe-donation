@@ -1,0 +1,417 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bloks-stripe\n"
+"POT-Creation-Date: 2017-10-18 08:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bloks Stripe Donation <support@bloks.co>\n"
+"Language-Team: Bloks Stripe Donation <support@bloks.co>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bloks-stripe.php:34
+msgid "Insufficient PHP Version."
+msgstr ""
+
+#: bloks-stripe.php:74
+msgid ""
+"Another plugin has loaded an incompatible Stripe API client. Deactivate all "
+"other Stripe plugins, and try to activate Bloks Stripe Donation plugin again."
+msgstr ""
+
+#: classes/class.blope.admin.php:262
+msgid "Button created."
+msgstr ""
+
+#: classes/class.blope.admin.php:314
+msgid "Button saved."
+msgstr ""
+
+#: classes/class.blope.admin.php:330
+msgid "Button deleted."
+msgstr ""
+
+#: classes/class.blope.admin.php:380
+msgid "Settings"
+msgstr ""
+
+#: classes/class.blope.loader.php:123
+msgid "Thank you for your donation"
+msgstr ""
+
+#: classes/class.blope.stripe.php:31
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: classes/class.blope.stripe.php:32
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: classes/class.blope.stripe.php:33
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: classes/class.blope.stripe.php:34
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: classes/class.blope.stripe.php:35
+msgid "The card's swipe data is invalid."
+msgstr ""
+
+#: classes/class.blope.stripe.php:36
+msgid "The card number is incorrect."
+msgstr ""
+
+#: classes/class.blope.stripe.php:37
+msgid "The card has expired."
+msgstr ""
+
+#: classes/class.blope.stripe.php:38
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: classes/class.blope.stripe.php:39
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: classes/class.blope.stripe.php:40
+msgid "The card was declined."
+msgstr ""
+
+#: classes/class.blope.stripe.php:41
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: classes/class.blope.stripe.php:42
+msgid " An error occurred while processing the card."
+msgstr ""
+
+#: classes/class.blope.stripe.php:57
+msgid "Invalid key was set, please set another key."
+msgstr ""
+
+#: includes/functions.php:25
+msgid ""
+"This Donation Button is invalid. Please check the settings and shortcode "
+"attributes"
+msgstr ""
+
+#: templates/custom.amount.php:20
+msgid "OK"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:48
+msgid "Donation Button"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:70
+msgid "General"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:74
+msgid "Button label"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:75
+msgid ""
+"Please enter label for the button here. This is the text appear on the "
+"button."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:82
+msgid ""
+"Please enter the sub text for the label here. Normally this text will be "
+"placed under the main label. If you don't see the text in preview, which "
+"mean the style you've selected doesn't support Sub label."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:89
+msgid "Button Style"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:90
+msgid ""
+"Please select the look and feel for the button. Some styles will come with "
+"special effect while mouse hover."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:98
+msgid "Animation"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:99
+msgid ""
+"These cool animations will play when you scroll to the button in frontend. "
+"Please note that animation will play once per page load."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:108
+msgid "Amount"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:109
+msgid ""
+"This is the Amount users will donate you. \n"
+"Fixed amount will ask all users donate the same amount as you set here (e.g: "
+"$20). \n"
+"Flexible amount will allow users to donate you whatever amount they want by "
+"entering the number into the box."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:115
+msgid "Fixed"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:120
+#: templates/pages/list.buttons.page.php:46
+msgid "Flexible"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:126
+msgid ""
+"This is also known as Thank you message. \n"
+"The message will appear to user after they successfully made the donation. "
+"The message will display in popup similar to donation popup."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:132
+msgid "Advanced"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:136
+msgid "Payment button label"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:137
+msgid ""
+"This is the Label of donation button appear in donation form. E.g: Donate $20"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:144
+msgid ""
+"This is the text of description for your site in donation form. This should "
+"be brief as the Stripe popup only show limited text."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:150
+msgid "Enable Remember Me"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:151
+msgid "Show remember me check box on payment form"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:163
+msgid "Enable Zip Code"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:164
+msgid "Show or hide Zip Code"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:176
+msgid "Enable Shipping"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:177
+msgid "Show or hide Shipping address"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:188
+msgid "Enable Bitcoin"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:189
+msgid "Enable Bitcoin feature"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:200
+msgid "Enable Billing Address"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:201
+msgid ""
+"Enable the Billing Address form. When set to Yes, your donation form will "
+"have 2 steps, one is for credit card info and the other for Billing Address."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:212
+msgid "Redirect On Success"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:213
+msgid ""
+"The URL that the user should be redirected to after a successful donate."
+msgstr ""
+
+#: templates/pages/edit.button.page.php:219
+msgid "Redirect On Failure"
+msgstr ""
+
+#: templates/pages/edit.button.page.php:220
+msgid "The URL that the user should be redirected to after a failure donate."
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:25
+msgid "Bloks Stripe Donation Buttons"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:26
+msgid "Add New"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:33
+msgid "Button Label"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:34
+msgid "Button Amount"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:35
+msgid "Button Shortcode"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:50
+msgid "Edit"
+msgstr ""
+
+#: templates/pages/list.buttons.page.php:51
+msgid "Delete"
+msgstr ""
+
+#: templates/pages/settings.page.php:37
+msgid "Bloks Stripe Settings"
+msgstr ""
+
+#: templates/pages/settings.page.php:39
+msgid "Loading..."
+msgstr ""
+
+#: templates/pages/settings.page.php:40
+msgid "Save Changes"
+msgstr ""
+
+#: templates/pages/settings.page.php:59
+msgid "Store Name: "
+msgstr ""
+
+#: templates/pages/settings.page.php:60
+msgid ""
+"The name of your store or website. Defaults to Site Title if left blank."
+msgstr ""
+
+#: templates/pages/settings.page.php:70
+msgid "Store Descriptions: "
+msgstr ""
+
+#: templates/pages/settings.page.php:71
+msgid ""
+"The descriptions of your store or website. Defaults to descriptions if left "
+"blank."
+msgstr ""
+
+#: templates/pages/settings.page.php:81
+msgid "Store Logo Image: "
+msgstr ""
+
+#: templates/pages/settings.page.php:82
+msgid ""
+"A relative or absolute URL pointing to a square image of your brand or "
+"product. The recommended minimum size is 128x128px. The supported image "
+"types are: .gif, .jpeg, and .png."
+msgstr ""
+
+#: templates/pages/settings.page.php:87
+msgid "Choose Image"
+msgstr ""
+
+#: templates/pages/settings.page.php:95
+msgid "Currency: "
+msgstr ""
+
+#: templates/pages/settings.page.php:96
+msgid ""
+"Specify a currency using it's 3-letter ISO Code. Defaults to USD if left "
+"blank. Go to 'https://support.stripe.com/questions/which-currencies-does-"
+"stripe-support/' for detail"
+msgstr ""
+
+#: templates/pages/settings.page.php:102
+msgid "Select from the list"
+msgstr ""
+
+#: templates/pages/settings.page.php:122
+msgid "Locale: "
+msgstr ""
+
+#: templates/pages/settings.page.php:123
+msgid ""
+"'auto' is used by default to select a language based on the user's browser "
+"configuration. To select a particular language, pass the two letter ISO 639-"
+"1 code such as 'zh' for Chinese. Go to 'https://support.stripe."
+"com/questions/what-languages-does-stripe-checkout-support' to see languages "
+"supported by Stripe Checkout"
+msgstr ""
+
+#: templates/pages/settings.page.php:136
+msgid "API Mode: "
+msgstr ""
+
+#: templates/pages/settings.page.php:148
+msgid "Stripe Test Secret Key: "
+msgstr ""
+
+#: templates/pages/settings.page.php:151
+msgid "Enter Your Stripe Test Secret Key "
+msgstr ""
+
+#: templates/pages/settings.page.php:156
+msgid "Stripe Test Publishable Key: "
+msgstr ""
+
+#: templates/pages/settings.page.php:159
+msgid "Enter Your Stripe Test Publishable Key "
+msgstr ""
+
+#: templates/pages/settings.page.php:164
+msgid "Stripe Live Secret Key: "
+msgstr ""
+
+#: templates/pages/settings.page.php:167
+msgid "Enter Your Stripe Live Secret Key "
+msgstr ""
+
+#: templates/pages/settings.page.php:172
+msgid "Stripe Live Publishable Key: "
+msgstr ""
+
+#: templates/pages/settings.page.php:175
+msgid "Enter Your Stripe Live Publishable Key "
+msgstr ""
+
+#. Name of the plugin
+msgid "Bloks Stripe Donation"
+msgstr ""
+
+#. Description of the plugin
+msgid "Bloks Stripe Donation plugin, this is free version."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://bloks.co/plugins/stripe-donation"
+msgstr ""
+
+#. Author of the plugin
+msgid "Bloks Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bloks.co/"
+msgstr ""

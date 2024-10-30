@@ -1,0 +1,282 @@
+/**
+ * All of the CSS for this plugin.
+ */
+.blope-donation-btn,
+.blope-donation-btn .blope-btn-title,
+.blope-donation-btn .blope-currency,
+.blope-donation-btn .blope-btn-desc {cursor: pointer;}
+.blope-donation-custom-amount-container input,
+.blope-donation-btn input {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.hide {
+    display: none;
+}
+.animated {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+}
+
+/* Donation Custom Amount Form */
+.blope-donation-flexible .blope-currency,
+.blope-donation-flexible .blope-btn-amount {display: none !important;}
+.blope-donation-custom-amount-container {
+    position: relative;
+    padding: 0;
+    /*border: 1px solid #e1e1e1;
+    background-color: #fff;
+    border-radius: 5px;*/
+    display: inline-block;
+    vertical-align: top;
+}
+.blope-donation-custom-amount-container .blope-custom-currency {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    margin: 0;
+    font-size: 15px;
+    color: orangered;
+    display: inline-block;
+    display: none;
+}
+.blope-donation-custom-amount {
+    position: relative;
+    display: block;
+    float: left;
+    width: 85px;
+}
+
+.blope-donation-custom-amount input[type=text]::-webkit-inner-spin-button,
+.blope-donation-custom-amount input[type=text]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.blope-donation-custom-amount input[type=text] {
+    width: 64px;
+    height: 36px;
+    line-height: 1.65;
+    float: left;
+    color: #333;
+    display: block;
+    padding: 0 8px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid hsla(240,1%,49%,.25);
+    -moz-appearance: textfield;
+}
+
+.blope-donation-custom-amount input[type=text]:focus {
+    outline: 0;
+    color: #333;
+    border: 1px solid hsla(240,1%,49%,.25);
+}
+.blope-donation-custom-amount input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+}
+.blope-donation-custom-amount input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+.blope-donation-custom-amount input[type=text]:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+.blope-donation-custom-amount input[type=text]:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+.blope-donation-custom-btn {
+    display: block;
+    width: 42px;
+    height: 37px;
+    margin-left: 92px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #3ea8e5;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#44b1e8),to(#3098de));
+    background-image: -webkit-linear-gradient(top,#44b1e8,#3098de);
+    background-image: linear-gradient(-180deg,#44b1e8,#3098de);
+    box-shadow: 0 1px 0 0 rgba(46,86,153,.15), inset 0 1px 0 0 rgba(46,86,153,.1), inset 0 -1px 0 0 rgba(46,86,153,.4);
+    font-size: 17px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 700;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+/* MODAL */
+.blope-modal-wrapper {
+    z-index: 2147483647;
+    display: block;
+    background: rgba(0,0,0,.6);
+    border: 0px none transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: visible;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.blope-modal-container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    margin-top: -197px;
+    margin-left: -150px;
+    min-height: 394px;
+}
+.blope-modal-content {
+    display: inline-block;
+    border-radius: 6px;
+    width: 300px;
+    padding-bottom: 36px;
+    position: relative;
+    background-color: #f5f5f7;
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, .5), inset 0 1px 0 0 hsla(0, 0%, 100%, .65);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.blope-modal-header {
+    position: relative;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: block;
+    padding: 53px 36px 12px;
+    text-align: center;
+    background-color: #e8e9eb
+}
+.blope-modal-header-logo {
+    position: absolute;
+    top: -26px;
+    right: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.18), 0 2px 2px 0 rgba(0,0,0,.08);
+}
+.blope-modal-header-logo-bg {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background: #fff;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+}
+.blope-nav-close {
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/close.png);
+    background-size: 17px;
+    background-position: 4px 4px;
+    right: 6px;
+    top: 6px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.blope-modal-header-company {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.blope-modal-header-desc {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    color: #5b5b65;
+    text-shadow: 0 1px 0 #fff;
+    padding-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blope-modal-devider {
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #fff;
+    box-shadow: 0 -1px 0 0 #d2d2d3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 4px;
+    background-color: #f5f5f7;
+    margin-bottom: -3px;
+}
+.blope-modal-body {
+    padding: 18px 36px 0;
+    text-align: center;
+}
+.blope-modal-message {
+    position: relative;
+    text-align: center;
+    min-height: 188px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    color: #5b5b65;
+}
+.blope-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/spinner.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blope-modal-btn-ok {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 18px 0 0;
+    border-radius: 4px;
+    background-color: #3ea8e5;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#44b1e8),to(#3098de));
+    background-image: -webkit-linear-gradient(top,#44b1e8,#3098de);
+    background-image: linear-gradient(-180deg,#44b1e8,#3098de);
+    box-shadow: 0 1px 0 0 rgba(46,86,153,.15), inset 0 1px 0 0 rgba(46,86,153,.1), inset 0 -1px 0 0 rgba(46,86,153,.4);
+    font-size: 17px;
+    line-height: 21px;
+    height: 37px;
+    font-weight: 700;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
